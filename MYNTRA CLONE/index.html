@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyntraClone | Fashion Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">✨ THE BIG STYLE EDIT IS HERE — EXTRA 20% OFF ON YOUR FIRST ORDER</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="MyntraClone home"><span class="brand-mark">T</span><span>MYNTRA<span class="brand-amp">C</span>lone</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#men">MEN</a><a href="#women">WOMEN</a><a href="#kids">KIDS</a><a href="#beauty">BEAUTY</a>
+    </nav>
+    <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search for styles, brands & more" aria-label="Search products"></label>
+    <div class="header-actions"><a href="#men"><span class="action-icon">♙</span><span>Profile</span></a><a href="#men"><span class="action-icon">♡</span><span>Wishlist</span></a><a href="#men"><span class="bag-icon">▱<b id="bagCount">0</b></span><span>Bag</span></a></div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">YOUR NEW SEASON STARTS HERE</p><h1>Wear your<br><em>own story.</em></h1><p class="hero-text">Fresh fits, feel-good fabrics and looks that are completely you.</p><a class="button button-dark" href="#men">SHOP THE EDIT <span>↗</span></a><div class="hero-note"><span class="note-star">✳</span> Fashion that feels like you</div></div>
+      <div class="hero-art"><div class="hero-image dummy-image dummy-women" role="img" aria-label="Dummy mannequin photo"><span>DEMO IMAGE</span></div><div class="round-stamp">NEW<br>SEASON<br><span>✳</span></div><div class="hero-caption">THE EVERYDAY<br>ICON COLLECTION</div><span class="spark spark-one">✳</span><span class="spark spark-two">✦</span></div>
+      <div class="hero-side">EST. FOR YOUR NEXT FAVOURITE LOOK</div>
+    </section>
+
+    <section class="benefits" aria-label="Shopping benefits"><div><span>✦</span> FREE SHIPPING OVER ₹999</div><div><span>↺</span> EASY 7-DAY RETURNS</div><div><span>♡</span> MADE FOR YOUR MOMENTS</div></section>
+
+    <section class="categories section-wrap" id="categories"><div class="section-heading"><div><p class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</p><h2>Find your <em>kind of style</em></h2></div><a class="text-link" href="#men">EXPLORE ALL <span>↗</span></a></div><div class="category-grid">
+      <a class="category-card cat-women" href="#women"><div class="dummy-image dummy-women" role="img" aria-label="Dummy display: Fashion portrait"><span>DEMO IMAGE</span></div><span>01 / WOMEN</span><strong>Soft, bold, all you.</strong><i>↗</i></a>
+      <a class="category-card cat-men" href="#men"><div class="dummy-image dummy-men" role="img" aria-label="Dummy display: Men's contemporary fashion"><span>DEMO IMAGE</span></div><span>02 / MEN</span><strong>Everyday, upgraded.</strong><i>↗</i></a>
+      <a class="category-card cat-kids" href="#kids"><div class="dummy-image dummy-kids" role="img" aria-label="Dummy display: Children's fashion"><span>DEMO IMAGE</span></div><span>03 / LITTLE ONES</span><strong>Big joy. Tiny fits.</strong><i>↗</i></a>
+    </div></section>
+
+    <section class="products-section category-products" id="men"><div class="section-wrap"><div class="section-heading"><div><p class="eyebrow">MEN'S EVERYDAY PICKS</p><h2>Men's <em>T-Shirts</em></h2></div></div><div class="product-grid">
+      <article class="product-card" data-name="Men's classic t-shirt"><div class="product-photo"><div class="dummy-image dummy-men" role="img" aria-label="Dummy display: Men's cotton T-shirt"><span>DEMO IMAGE</span></div><span class="product-tag">COTTON</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Classic Cotton Tee</h3><p>Regular fit · White</p></div><button class="add-button" data-product="Classic Cotton Tee">+</button></div><div class="price">₹699 <del>₹999</del> <span>30% OFF</span></div></article>
+      <article class="product-card" data-name="Men's blue t-shirt"><div class="product-photo"><div class="dummy-image dummy-men" role="img" aria-label="Dummy display: Men's blue T-shirt"><span>DEMO IMAGE</span></div><span class="product-tag tag-new">NEW</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Everyday Blue Tee</h3><p>Soft cotton · Blue</p></div><button class="add-button" data-product="Everyday Blue Tee">+</button></div><div class="price">₹799 <del>₹1,199</del> <span>33% OFF</span></div></article>
+    </div></div></section>
+    <section class="products-section category-products" id="women"><div class="section-wrap"><div class="section-heading"><div><p class="eyebrow">WOMEN'S DAILY FAVOURITES</p><h2>Women's <em>T-Shirts</em></h2></div></div><div class="product-grid">
+      <article class="product-card" data-name="Women's graphic t-shirt"><div class="product-photo"><div class="dummy-image dummy-women" role="img" aria-label="Dummy display: Women's casual T-shirt"><span>DEMO IMAGE</span></div><span class="product-tag">BESTSELLER</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Graphic Weekend Tee</h3><p>Relaxed fit · White</p></div><button class="add-button" data-product="Graphic Weekend Tee">+</button></div><div class="price">₹799 <del>₹1,199</del> <span>33% OFF</span></div></article>
+      <article class="product-card" data-name="Women's pink t-shirt"><div class="product-photo"><div class="dummy-image dummy-women" role="img" aria-label="Dummy display: Women's colorful T-shirt"><span>DEMO IMAGE</span></div><span class="product-tag tag-new">JUST IN</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Easy Day Tee</h3><p>Soft cotton · Pink</p></div><button class="add-button" data-product="Easy Day Tee">+</button></div><div class="price">₹899 <del>₹1,299</del> <span>31% OFF</span></div></article>
+    </div></div></section>
+    <section class="products-section category-products" id="beauty"><div class="section-wrap"><div class="section-heading"><div><p class="eyebrow">A LITTLE SELF-CARE</p><h2>Beauty <em>picks</em></h2></div></div><div class="product-grid">
+      <article class="product-card" data-name="Beauty glow set"><div class="product-photo"><div class="dummy-image dummy-beauty" role="img" aria-label="Dummy display: Beauty and skincare products"><span>DEMO IMAGE</span></div><span class="product-tag">3-PIECE SET</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Daily Glow Set</h3><p>Skincare · 3 pieces</p></div><button class="add-button" data-product="Daily Glow Set">+</button></div><div class="price">₹999 <del>₹1,499</del> <span>33% OFF</span></div></article>
+      <article class="product-card" data-name="Beauty care essentials"><div class="product-photo"><div class="dummy-image dummy-beauty" role="img" aria-label="Dummy display: Beauty care products"><span>DEMO IMAGE</span></div><span class="product-tag tag-new">NEW</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Beauty Care Essentials</h3><p>Daily care · Gift set</p></div><button class="add-button" data-product="Beauty Care Essentials">+</button></div><div class="price">₹1,199 <del>₹1,599</del> <span>25% OFF</span></div></article>
+    </div></div></section>
+    <section class="products-section category-products" id="kids"><div class="section-wrap"><div class="section-heading"><div><p class="eyebrow">MADE FOR LITTLE ADVENTURES</p><h2>Kids' <em>clothes</em></h2></div></div><div class="product-grid">
+      <article class="product-card" data-name="Kids happy day outfit"><div class="product-photo"><div class="dummy-image dummy-kids" role="img" aria-label="Dummy display: Children's colorful clothes"><span>DEMO IMAGE</span></div><span class="product-tag">SOFT COTTON</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Happy Day Outfit</h3><p>Play-ready · 2-piece</p></div><button class="add-button" data-product="Happy Day Outfit">+</button></div><div class="price">₹899 <del>₹1,299</del> <span>31% OFF</span></div></article>
+      <article class="product-card" data-name="Kids colorful t-shirt"><div class="product-photo"><div class="dummy-image dummy-kids" role="img" aria-label="Dummy display: Children's T-shirt"><span>DEMO IMAGE</span></div><span class="product-tag tag-new">JUST IN</span><button class="wish" aria-label="Add to wishlist">♡</button></div><div class="product-info"><div><h3>Color Pop T-Shirt</h3><p>Comfy cotton · Multi</p></div><button class="add-button" data-product="Color Pop T-Shirt">+</button></div><div class="price">₹599 <del>₹899</del> <span>33% OFF</span></div></article>
+    </div></div></section>
+    <section class="closing"><span>✳</span><p>GOOD STYLE. GOOD MOOD.<br><em>THAT'S THE WHOLE THING.</em></p><span>✳</span></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">T</span><span>MYNTRA<span class="brand-amp">C</span>lone</span></a><span>Fresh styles for your everyday.</span><span>© 2026 MyntraCline</span></footer>
+
+  <script>
+    // Beginner-friendly bag counter, search and wishlist interactions.
+    let bagCount = 0;
+    const bagNumber = document.getElementById('bagCount');
+    document.querySelectorAll('.add-button').forEach((button) => {
+      button.addEventListener('click', () => {
+        bagCount++;
+        bagNumber.textContent = bagCount;
+        button.textContent = '✓';
+        setTimeout(() => button.textContent = '+', 800);
+      });
+    });
+    document.querySelectorAll('.wish').forEach((button) => {
+      button.addEventListener('click', () => button.classList.toggle('is-loved'));
+    });
+    document.getElementById('searchInput').addEventListener('input', (event) => {
+      const query = event.target.value.toLowerCase();
+      document.querySelectorAll('.product-card').forEach((card) => {
+        card.hidden = !card.dataset.name.toLowerCase().includes(query);
+      });
+    });
+  </script>
+</body>
+</html>
